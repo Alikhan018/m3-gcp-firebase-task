@@ -1,0 +1,43 @@
+# ----------------------
+# Node / Server
+# ----------------------
+server/node_modules/
+npm-debug.log*
+yarn-error.log*
+server/.env
+server/firebase-service-account.json
+server/firebase-debug.js
+.env.*          # any other env files
+dist/
+build/
+.DS_Store
+
+# Firebase service account / secrets
+server/src/firebase-service-account.json
+
+# ----------------------
+# React / Client
+# ----------------------
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+client/.env.*      # other env files
+
+# ----------------------
+# Python / GPU service
+# ----------------------
+gpu/__pycache__/
+gpu/*.pyc
+gpu/env/
+gpu/venv/
+gpu/.env
+
+# ----------------------
+# OS / Editor
+# ----------------------
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.swp
